@@ -1,0 +1,12 @@
+print("welcome to the tip calculator")
+hotel = input("what was the total bill?\n")
+percentage = input("what percentage tip would you like to give?\n")
+a = int(percentage )/ 100
+bill = int(hotel) * (a)
+print(int(bill))
+c = int(hotel) + int(bill)
+print(c)
+total = input("how many ppl to split the bill?\n")
+final_bill = int(c) / int(total)
+print ("each person should pay is :" )
+print(int(final_bill))
